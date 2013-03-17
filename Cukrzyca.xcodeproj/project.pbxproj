@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54C4406C16F5E82D006F3185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C4406B16F5E82D006F3185 /* UIKit.framework */; };
+		54C4406E16F5E82D006F3185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C4406D16F5E82D006F3185 /* Foundation.framework */; };
+		54C4407016F5E82D006F3185 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C4406F16F5E82D006F3185 /* CoreGraphics.framework */; };
+		54C4407216F5E82D006F3185 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C4407116F5E82D006F3185 /* CoreData.framework */; };
+		54C4407816F5E82D006F3185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54C4407616F5E82D006F3185 /* InfoPlist.strings */; };
+		54C4407A16F5E82D006F3185 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C4407916F5E82D006F3185 /* main.m */; };
+		54C4407E16F5E82D006F3185 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C4407D16F5E82D006F3185 /* AppDelegate.m */; };
+		54C4408016F5E82D006F3185 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C4407F16F5E82D006F3185 /* Default.png */; };
+		54C4408216F5E82D006F3185 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C4408116F5E82D006F3185 /* Default@2x.png */; };
+		54C4408416F5E82D006F3185 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54C4408316F5E82D006F3185 /* Default-568h@2x.png */; };
+		54C4408716F5E82D006F3185 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C4408516F5E82D006F3185 /* MainStoryboard_iPhone.storyboard */; };
+		54C4408A16F5E82D006F3185 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C4408816F5E82D006F3185 /* MainStoryboard_iPad.storyboard */; };
+		54C4408D16F5E82D006F3185 /* Cukrzyca.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54C4408B16F5E82D006F3185 /* Cukrzyca.xcdatamodeld */; };
+		54C4409016F5E82D006F3185 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C4408F16F5E82D006F3185 /* MasterViewController.m */; };
+		54C4409316F5E82D006F3185 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C4409216F5E82D006F3185 /* DetailViewController.m */; };
+		54C4409B16F5E82D006F3185 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C4409A16F5E82D006F3185 /* SenTestingKit.framework */; };
+		54C4409C16F5E82D006F3185 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C4406B16F5E82D006F3185 /* UIKit.framework */; };
+		54C4409D16F5E82D006F3185 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C4406D16F5E82D006F3185 /* Foundation.framework */; };
+		54C4409E16F5E82D006F3185 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54C4407116F5E82D006F3185 /* CoreData.framework */; };
+		54C440A616F5E82D006F3185 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54C440A416F5E82D006F3185 /* InfoPlist.strings */; };
+		54C440A916F5E82D006F3185 /* CukrzycaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C440A816F5E82D006F3185 /* CukrzycaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54C4409F16F5E82D006F3185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54C4406016F5E82D006F3185 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54C4406716F5E82D006F3185;
+			remoteInfo = Cukrzyca;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54C4406816F5E82D006F3185 /* Cukrzyca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cukrzyca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C4406B16F5E82D006F3185 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54C4406D16F5E82D006F3185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54C4406F16F5E82D006F3185 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54C4407116F5E82D006F3185 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		54C4407516F5E82D006F3185 /* Cukrzyca-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cukrzyca-Info.plist"; sourceTree = "<group>"; };
+		54C4407716F5E82D006F3185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54C4407916F5E82D006F3185 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54C4407B16F5E82D006F3185 /* Cukrzyca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cukrzyca-Prefix.pch"; sourceTree = "<group>"; };
+		54C4407C16F5E82D006F3185 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54C4407D16F5E82D006F3185 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54C4407F16F5E82D006F3185 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		54C4408116F5E82D006F3185 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		54C4408316F5E82D006F3185 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		54C4408616F5E82D006F3185 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		54C4408916F5E82D006F3185 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		54C4408C16F5E82D006F3185 /* Cukrzyca.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cukrzyca.xcdatamodel; sourceTree = "<group>"; };
+		54C4408E16F5E82D006F3185 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		54C4408F16F5E82D006F3185 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		54C4409116F5E82D006F3185 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		54C4409216F5E82D006F3185 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		54C4409916F5E82D006F3185 /* CukrzycaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CukrzycaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54C4409A16F5E82D006F3185 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		54C440A316F5E82D006F3185 /* CukrzycaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CukrzycaTests-Info.plist"; sourceTree = "<group>"; };
+		54C440A516F5E82D006F3185 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54C440A716F5E82D006F3185 /* CukrzycaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CukrzycaTests.h; sourceTree = "<group>"; };
+		54C440A816F5E82D006F3185 /* CukrzycaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CukrzycaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54C4406516F5E82D006F3185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C4406C16F5E82D006F3185 /* UIKit.framework in Frameworks */,
+				54C4406E16F5E82D006F3185 /* Foundation.framework in Frameworks */,
+				54C4407016F5E82D006F3185 /* CoreGraphics.framework in Frameworks */,
+				54C4407216F5E82D006F3185 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C4409516F5E82D006F3185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C4409B16F5E82D006F3185 /* SenTestingKit.framework in Frameworks */,
+				54C4409C16F5E82D006F3185 /* UIKit.framework in Frameworks */,
+				54C4409D16F5E82D006F3185 /* Foundation.framework in Frameworks */,
+				54C4409E16F5E82D006F3185 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54C4405F16F5E82D006F3185 = {
+			isa = PBXGroup;
+			children = (
+				54C4407316F5E82D006F3185 /* Cukrzyca */,
+				54C440A116F5E82D006F3185 /* CukrzycaTests */,
+				54C4406A16F5E82D006F3185 /* Frameworks */,
+				54C4406916F5E82D006F3185 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54C4406916F5E82D006F3185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C4406816F5E82D006F3185 /* Cukrzyca.app */,
+				54C4409916F5E82D006F3185 /* CukrzycaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54C4406A16F5E82D006F3185 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C4406B16F5E82D006F3185 /* UIKit.framework */,
+				54C4406D16F5E82D006F3185 /* Foundation.framework */,
+				54C4406F16F5E82D006F3185 /* CoreGraphics.framework */,
+				54C4407116F5E82D006F3185 /* CoreData.framework */,
+				54C4409A16F5E82D006F3185 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54C4407316F5E82D006F3185 /* Cukrzyca */ = {
+			isa = PBXGroup;
+			children = (
+				54C4407C16F5E82D006F3185 /* AppDelegate.h */,
+				54C4407D16F5E82D006F3185 /* AppDelegate.m */,
+				54C4408516F5E82D006F3185 /* MainStoryboard_iPhone.storyboard */,
+				54C4408816F5E82D006F3185 /* MainStoryboard_iPad.storyboard */,
+				54C4408E16F5E82D006F3185 /* MasterViewController.h */,
+				54C4408F16F5E82D006F3185 /* MasterViewController.m */,
+				54C4409116F5E82D006F3185 /* DetailViewController.h */,
+				54C4409216F5E82D006F3185 /* DetailViewController.m */,
+				54C4408B16F5E82D006F3185 /* Cukrzyca.xcdatamodeld */,
+				54C4407416F5E82D006F3185 /* Supporting Files */,
+			);
+			path = Cukrzyca;
+			sourceTree = "<group>";
+		};
+		54C4407416F5E82D006F3185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54C4407516F5E82D006F3185 /* Cukrzyca-Info.plist */,
+				54C4407616F5E82D006F3185 /* InfoPlist.strings */,
+				54C4407916F5E82D006F3185 /* main.m */,
+				54C4407B16F5E82D006F3185 /* Cukrzyca-Prefix.pch */,
+				54C4407F16F5E82D006F3185 /* Default.png */,
+				54C4408116F5E82D006F3185 /* Default@2x.png */,
+				54C4408316F5E82D006F3185 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54C440A116F5E82D006F3185 /* CukrzycaTests */ = {
+			isa = PBXGroup;
+			children = (
+				54C440A716F5E82D006F3185 /* CukrzycaTests.h */,
+				54C440A816F5E82D006F3185 /* CukrzycaTests.m */,
+				54C440A216F5E82D006F3185 /* Supporting Files */,
+			);
+			path = CukrzycaTests;
+			sourceTree = "<group>";
+		};
+		54C440A216F5E82D006F3185 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54C440A316F5E82D006F3185 /* CukrzycaTests-Info.plist */,
+				54C440A416F5E82D006F3185 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54C4406716F5E82D006F3185 /* Cukrzyca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C440AC16F5E82D006F3185 /* Build configuration list for PBXNativeTarget "Cukrzyca" */;
+			buildPhases = (
+				54C4406416F5E82D006F3185 /* Sources */,
+				54C4406516F5E82D006F3185 /* Frameworks */,
+				54C4406616F5E82D006F3185 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cukrzyca;
+			productName = Cukrzyca;
+			productReference = 54C4406816F5E82D006F3185 /* Cukrzyca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54C4409816F5E82D006F3185 /* CukrzycaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54C440AF16F5E82D006F3185 /* Build configuration list for PBXNativeTarget "CukrzycaTests" */;
+			buildPhases = (
+				54C4409416F5E82D006F3185 /* Sources */,
+				54C4409516F5E82D006F3185 /* Frameworks */,
+				54C4409616F5E82D006F3185 /* Resources */,
+				54C4409716F5E82D006F3185 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54C440A016F5E82D006F3185 /* PBXTargetDependency */,
+			);
+			name = CukrzycaTests;
+			productName = CukrzycaTests;
+			productReference = 54C4409916F5E82D006F3185 /* CukrzycaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54C4406016F5E82D006F3185 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Maciej Szewczyk";
+			};
+			buildConfigurationList = 54C4406316F5E82D006F3185 /* Build configuration list for PBXProject "Cukrzyca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54C4405F16F5E82D006F3185;
+			productRefGroup = 54C4406916F5E82D006F3185 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54C4406716F5E82D006F3185 /* Cukrzyca */,
+				54C4409816F5E82D006F3185 /* CukrzycaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54C4406616F5E82D006F3185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C4407816F5E82D006F3185 /* InfoPlist.strings in Resources */,
+				54C4408016F5E82D006F3185 /* Default.png in Resources */,
+				54C4408216F5E82D006F3185 /* Default@2x.png in Resources */,
+				54C4408416F5E82D006F3185 /* Default-568h@2x.png in Resources */,
+				54C4408716F5E82D006F3185 /* MainStoryboard_iPhone.storyboard in Resources */,
+				54C4408A16F5E82D006F3185 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C4409616F5E82D006F3185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C440A616F5E82D006F3185 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54C4409716F5E82D006F3185 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54C4406416F5E82D006F3185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C4407A16F5E82D006F3185 /* main.m in Sources */,
+				54C4407E16F5E82D006F3185 /* AppDelegate.m in Sources */,
+				54C4408D16F5E82D006F3185 /* Cukrzyca.xcdatamodeld in Sources */,
+				54C4409016F5E82D006F3185 /* MasterViewController.m in Sources */,
+				54C4409316F5E82D006F3185 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C4409416F5E82D006F3185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C440A916F5E82D006F3185 /* CukrzycaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54C440A016F5E82D006F3185 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54C4406716F5E82D006F3185 /* Cukrzyca */;
+			targetProxy = 54C4409F16F5E82D006F3185 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54C4407616F5E82D006F3185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C4407716F5E82D006F3185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54C4408516F5E82D006F3185 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C4408616F5E82D006F3185 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		54C4408816F5E82D006F3185 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C4408916F5E82D006F3185 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		54C440A416F5E82D006F3185 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54C440A516F5E82D006F3185 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54C440AA16F5E82D006F3185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54C440AB16F5E82D006F3185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54C440AD16F5E82D006F3185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cukrzyca/Cukrzyca-Prefix.pch";
+				INFOPLIST_FILE = "Cukrzyca/Cukrzyca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54C440AE16F5E82D006F3185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cukrzyca/Cukrzyca-Prefix.pch";
+				INFOPLIST_FILE = "Cukrzyca/Cukrzyca-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		54C440B016F5E82D006F3185 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cukrzyca.app/Cukrzyca";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cukrzyca/Cukrzyca-Prefix.pch";
+				INFOPLIST_FILE = "CukrzycaTests/CukrzycaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		54C440B116F5E82D006F3185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cukrzyca.app/Cukrzyca";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cukrzyca/Cukrzyca-Prefix.pch";
+				INFOPLIST_FILE = "CukrzycaTests/CukrzycaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54C4406316F5E82D006F3185 /* Build configuration list for PBXProject "Cukrzyca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C440AA16F5E82D006F3185 /* Debug */,
+				54C440AB16F5E82D006F3185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54C440AC16F5E82D006F3185 /* Build configuration list for PBXNativeTarget "Cukrzyca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C440AD16F5E82D006F3185 /* Debug */,
+				54C440AE16F5E82D006F3185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54C440AF16F5E82D006F3185 /* Build configuration list for PBXNativeTarget "CukrzycaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54C440B016F5E82D006F3185 /* Debug */,
+				54C440B116F5E82D006F3185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54C4408B16F5E82D006F3185 /* Cukrzyca.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54C4408C16F5E82D006F3185 /* Cukrzyca.xcdatamodel */,
+			);
+			currentVersion = 54C4408C16F5E82D006F3185 /* Cukrzyca.xcdatamodel */;
+			path = Cukrzyca.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54C4406016F5E82D006F3185 /* Project object */;
+}
