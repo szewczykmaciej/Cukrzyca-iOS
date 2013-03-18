@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		541F141116F78136003E4FF4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		54C4406816F5E82D006F3185 /* Cukrzyca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cukrzyca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C4406B16F5E82D006F3185 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54C4406D16F5E82D006F3185 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,6 +104,7 @@
 				54C440A116F5E82D006F3185 /* CukrzycaTests */,
 				54C4406A16F5E82D006F3185 /* Frameworks */,
 				54C4406916F5E82D006F3185 /* Products */,
+				541F141116F78136003E4FF4 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -483,6 +485,7 @@
 				54C440AE16F5E82D006F3185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54C440AF16F5E82D006F3185 /* Build configuration list for PBXNativeTarget "CukrzycaTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +494,7 @@
 				54C440B116F5E82D006F3185 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
